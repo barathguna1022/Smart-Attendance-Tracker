@@ -1,0 +1,12 @@
+# macOS system files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# CSV backups (optional safety)
+*.csv.bak
