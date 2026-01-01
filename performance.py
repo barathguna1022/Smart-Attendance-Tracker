@@ -41,4 +41,4 @@ def calculate_average(student_id):
     else:
         grade = "D"
 
-    return percentage, grade
+    return percentage

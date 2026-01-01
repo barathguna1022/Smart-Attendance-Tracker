@@ -38,7 +38,14 @@ while True:
         pause()
 
     elif choice == "6":
-        calculate_average()
+        student_id = input("Enter Student ID: ")
+        percentage = calculate_average(student_id)
+
+        if percentage is None:
+            print("No performance records found for this student.")
+        else:
+            print(f"Average Performance: {percentage:.2f}%")
+
         pause()
 
     elif choice == "7":
